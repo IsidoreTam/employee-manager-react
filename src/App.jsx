@@ -1,4 +1,5 @@
 import React from 'react';
+import firebaseApp from './firebase/firebaseConfig'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 import {AuthProvider} from './auth/AuthContext'
