@@ -37,7 +37,8 @@ const HomePage = (props) => {
                  <h1>employee manager</h1>
                  <p>we focus on the paperwork while you foucs on your employees</p>
              </header>
-           
+             <Link to="/login" className="add-login-links">Login</Link>
+             <Link to="/register"className="add-signup-links">Register</Link>
              </HomePageStyles>
     );
 }

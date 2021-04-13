@@ -10,7 +10,6 @@
 
 # production
 /build
- 
 
 # misc
 .DS_Store
@@ -26,6 +25,7 @@ yarn-error.log*
 *.log
 
 # firebase files
+.github
 /src/firebase/firebaseConfig.js
 /.firebase
 .firebaserc
